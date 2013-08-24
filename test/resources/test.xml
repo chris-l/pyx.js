@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- Here is a comment -->
+<?music "Here is a PI" ?>
+<house>
+    <fun color="b&amp;w">This 	is a
+ black &amp; w\hite <device use="entertainment">TV</device> set!!</fun>
+  <self/>
+</house>
+<!--Above is element house.
+Comment continues.
+ -->

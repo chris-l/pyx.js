@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg     : grunt.file.readJSON('package.json'),
         jshint  : {
-            all     : ['Gruntfile.js', 'lib/pyx.js']
+            all     : ['Gruntfile.js', 'lib/pyx.js', 'test/**/*.spec.js']
         },
         'jasmine-node' : {
             options : {
@@ -23,6 +23,7 @@ module.exports = function(grunt) {
     // Default task(s).
     grunt.registerTask('default', [
         'jshint',
+        'jasmine-node'
     ]);
 
 };
