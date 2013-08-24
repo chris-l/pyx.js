@@ -1,0 +1,25 @@
+{
+  "name": "pyx.js",
+  "version": "0.1.1",
+  "description": "Javascript XML to pyx format conversor",
+  "main": "./lib/pyx",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "sax": ">=0.5.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chris-l/pyx.js.git"
+  },
+  "keywords": [
+    "xml",
+    "pyx",
+    "parser"
+  ],
+  "author": "Christopher Luna <dev@christopher-luna.com>",
+  "readme": "# xml to pyx conversor for javascript\n\n## Install\n\n    npm install pyx.js\n\n",
+  "license": "MIT"
+}
