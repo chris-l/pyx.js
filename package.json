@@ -9,7 +9,11 @@
   "dependencies": {
     "sax": ">=0.5.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-jasmine-node": "~0.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/chris-l/pyx.js.git"
