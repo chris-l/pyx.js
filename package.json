@@ -18,6 +18,10 @@
     "type": "git",
     "url": "git://github.com/chris-l/pyx.js.git"
   },
+  "scripts": {
+      "preinstall": "npm install -g grunt-cli",
+      "test": "grunt"
+  },
   "keywords": [
     "xml",
     "pyx",
